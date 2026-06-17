@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+/* HEADER */
+header{
+    background-color: #0b2a4a;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid #123a63;
+}
+
+header h1{
+    margin: 0;
+    color: #e6f1ff;
+}
+
+/* NAV */
+nav{
+    background-color: #0a1f35;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #123a63;
+}
+
+/* BOTÕES DO MENU */
+nav a{
+    display: inline-block;
+    color: #a8c7ff;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 14px;
+    border-radius: 8px;
+
+    background-color: #0b2f52;
+    border: 1px solid #061a2b;
+
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    background-color: #123a63;
+    border-color: #1f4f7a;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* MAIN */
+main{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* CARDS */
+.card{
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-2px);
+    border-color: #58a6ff;
+}
+
+/* TÍTULOS */
+h2{
+    color: #58a6ff;
+    margin-top: 0;
+}
+
+h3{
+    color: #79c0ff;
+}
+
+/* TEXTO */
+p{
+    line-height: 1.7;
+    color: #c9d1d9;
+}
+
+/* LISTA */
+li{
+    margin-bottom: 8px;
+    color: #c9d1d9;
+}
+
+footer{
+    background-color: #0a1f35;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #123a63;
+    margin-top: 40px;
+    color: #8b949e;
+}
+
+/* RODAPÉ */
+footer p{
+    margin: 5px 0;
+    font-size: 14px;
+}
